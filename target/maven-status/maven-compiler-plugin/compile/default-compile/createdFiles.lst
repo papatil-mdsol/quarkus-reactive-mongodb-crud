@@ -1,0 +1,16 @@
+com/knf/dev/demo/audit/AuditType.class
+com/knf/dev/demo/logging/LogMethodInterceptor.class
+com/knf/dev/demo/audit/AuditInterceptor.class
+com/knf/dev/demo/logging/LogMethod.class
+com/knf/dev/demo/markers/Auditable.class
+com/knf/dev/demo/service/UserService.class
+com/knf/dev/demo/audit/DiffCalculator.class
+com/knf/dev/demo/audit/WhichChanged.class
+com/knf/dev/demo/repository/UserRepository.class
+com/knf/dev/demo/audit/AuditField.class
+com/knf/dev/demo/entity/User.class
+META-INF/panache-archive.marker
+com/knf/dev/demo/repository/AuditRepository.class
+com/knf/dev/demo/controller/UserController.class
+com/knf/dev/demo/entity/Audits.class
+com/knf/dev/demo/audit/Audit.class

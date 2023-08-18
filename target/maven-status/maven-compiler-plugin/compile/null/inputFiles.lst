@@ -1,0 +1,15 @@
+/Users/papatil/workspace/medidata/Quarkus/quarku-reactive-mongodb-crud/src/main/java/com/knf/dev/demo/audit/DiffCalculator.java
+/Users/papatil/workspace/medidata/Quarkus/quarku-reactive-mongodb-crud/src/main/java/com/knf/dev/demo/controller/UserController.java
+/Users/papatil/workspace/medidata/Quarkus/quarku-reactive-mongodb-crud/src/main/java/com/knf/dev/demo/audit/WhichChanged.java
+/Users/papatil/workspace/medidata/Quarkus/quarku-reactive-mongodb-crud/src/main/java/com/knf/dev/demo/repository/AuditRepository.java
+/Users/papatil/workspace/medidata/Quarkus/quarku-reactive-mongodb-crud/src/main/java/com/knf/dev/demo/audit/AuditInterceptor.java
+/Users/papatil/workspace/medidata/Quarkus/quarku-reactive-mongodb-crud/src/main/java/com/knf/dev/demo/logging/CustomLoggedInterceptor.java
+/Users/papatil/workspace/medidata/Quarkus/quarku-reactive-mongodb-crud/src/main/java/com/knf/dev/demo/audit/AuditField.java
+/Users/papatil/workspace/medidata/Quarkus/quarku-reactive-mongodb-crud/src/main/java/com/knf/dev/demo/audit/Audit.java
+/Users/papatil/workspace/medidata/Quarkus/quarku-reactive-mongodb-crud/src/main/java/com/knf/dev/demo/audit/AuditType.java
+/Users/papatil/workspace/medidata/Quarkus/quarku-reactive-mongodb-crud/src/main/java/com/knf/dev/demo/service/UserService.java
+/Users/papatil/workspace/medidata/Quarkus/quarku-reactive-mongodb-crud/src/main/java/com/knf/dev/demo/logging/CustomLogged.java
+/Users/papatil/workspace/medidata/Quarkus/quarku-reactive-mongodb-crud/src/main/java/com/knf/dev/demo/markers/Auditable.java
+/Users/papatil/workspace/medidata/Quarkus/quarku-reactive-mongodb-crud/src/main/java/com/knf/dev/demo/entity/User.java
+/Users/papatil/workspace/medidata/Quarkus/quarku-reactive-mongodb-crud/src/main/java/com/knf/dev/demo/entity/Audits.java
+/Users/papatil/workspace/medidata/Quarkus/quarku-reactive-mongodb-crud/src/main/java/com/knf/dev/demo/repository/UserRepository.java
