@@ -4,21 +4,21 @@ https://maven.apache.org/xsd/maven-4.0.0.xsd"
          xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.knf.dev.demo</groupId>
+	<groupId>com.mdsol.audit.demo</groupId>
 	<artifactId>quarku-reactive-mongodb-crud</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<properties>
-		<compiler-plugin.version>3.8.1</compiler-plugin.version>
+		<compiler-plugin.version>3.11.0</compiler-plugin.version>
 		<maven.compiler.parameters>true</maven.compiler.parameters>
 		<maven.compiler.source>17</maven.compiler.source>
 		<maven.compiler.target>17</maven.compiler.target>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<quarkus-plugin.version>2.2.3.Final</quarkus-plugin.version>
+		<quarkus-plugin.version>3.3.0</quarkus-plugin.version>
 		<quarkus.platform.artifact-id>quarkus-universe-bom</quarkus.platform.artifact-id>
 		<quarkus.platform.group-id>io.quarkus</quarkus.platform.group-id>
-		<quarkus.platform.version>2.2.3.Final</quarkus.platform.version>
-		<surefire-plugin.version>2.22.1</surefire-plugin.version>
+		<quarkus.platform.version>3.3.0</quarkus.platform.version>
+		<surefire-plugin.version>3.1.2</surefire-plugin.version>
 	</properties>
 	<dependencyManagement>
 		<dependencies>
@@ -70,6 +70,17 @@ https://maven.apache.org/xsd/maven-4.0.0.xsd"
     		<artifactId>lombok</artifactId>
    	    <version>1.18.28</version>
     		<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>jakarta.interceptor</groupId>
+			<artifactId>jakarta.interceptor-api</artifactId>
+			<version>2.2.0-RC1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-failsafe-plugin</artifactId>
+			<version>3.1.2</version>
+			<scope>test</scope>
 		</dependency>
 	</dependencies>
 	<build>
